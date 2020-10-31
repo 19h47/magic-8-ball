@@ -1,6 +1,6 @@
 window.URL =
 	process.env.NODE_ENV === 'production'
-		? 'https://truth-or-dare.lebitclub.fr/'
+		? 'https://magic-8-balle.lebitclub.fr/'
 		: 'http://localhost:8081/';
 
 require.context('./assets/img/png/', true);
