@@ -1,0 +1,41 @@
+{
+	"name": "@19h47/magic-8-ball",
+	"version": "0.0.1",
+	"description": "Magic 8-Ball",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"author": "Jérémy Levron <jeremylevron@19h47.fr> (https://19h47.fr)",
+	"license": "ISC",
+	"dependencies": {
+		"gsap": "3.5.1",
+		"html2canvas": "^1.0.0-rc.7",
+		"vue": "^2.6.12",
+		"vue-svg-sprite": "^1.4.1",
+		"vuex": "^3.5.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/magic-8-ball/pack.git"
+	},
+	"devDependencies": {
+		"@19h47/prettier-config": "^1.0.0",
+		"@vue/cli-plugin-babel": "^4.5.8",
+		"@vue/cli-plugin-eslint": "^4.5.8",
+		"@vue/cli-plugin-vuex": "^4.5.8",
+		"@vue/cli-service": "^4.5.8",
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.12.1",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-vue": "^7.1.0",
+		"node-sass": "^5.0.0",
+		"prettier": "^2.1.2",
+		"prettier-eslint": "^11.0.0",
+		"sass": "^1.28.0",
+		"sass-loader": "^10.0.4",
+		"vue-template-compiler": "^2.6.12"
+	}
+}
